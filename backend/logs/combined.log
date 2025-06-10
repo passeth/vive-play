@@ -1,0 +1,221 @@
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:08:58.267Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:08:58.268Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:12:31.998Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:12:31.999Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:14:21.465Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:14:21.466Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:44:24.995Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:44:24.996Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T13:44:24.996Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T13:47:03.446Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:54:10.392Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:54:10.393Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T13:54:10.393Z"}
+{"level":"info","message":"GET /health - ::1","service":"server","timestamp":"2025-06-10T13:54:25.193Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Health check failed: connect ECONNREFUSED 127.0.0.1:5432","port":5432,"service":"server","stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at /home/passeth/vibe-play/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async <anonymous> (/home/passeth/vibe-play/backend/src/index.ts:39:5)","syscall":"connect","timestamp":"2025-06-10T13:54:25.198Z"}
+{"level":"info","message":"GET /health - ::1","service":"server","timestamp":"2025-06-10T13:54:31.396Z"}
+{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"level":"error","message":"Health check failed: connect ECONNREFUSED 127.0.0.1:5432","port":5432,"service":"server","stack":"Error: connect ECONNREFUSED 127.0.0.1:5432\n    at /home/passeth/vibe-play/node_modules/pg-pool/index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async <anonymous> (/home/passeth/vibe-play/backend/src/index.ts:39:5)","syscall":"connect","timestamp":"2025-06-10T13:54:31.397Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T13:55:30.560Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:55:30.891Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:55:30.892Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T13:55:30.892Z"}
+{"level":"info","message":"GET /health - ::1","service":"server","timestamp":"2025-06-10T13:55:38.890Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T13:55:44.467Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T13:55:50.194Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T13:56:06.541Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:56:07.014Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:56:07.015Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T13:56:07.015Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T13:56:13.961Z"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"server","timestamp":"2025-06-10T13:57:58.234Z"}
+{"level":"info","message":"User registered: test@vibeplay.com","service":"auth","timestamp":"2025-06-10T13:57:58.447Z"}
+{"level":"info","message":"POST /api/projects - ::1","service":"server","timestamp":"2025-06-10T13:58:12.032Z"}
+{"level":"info","message":"Project created: 글로우 세럼 프로젝트 by user test@vibeplay.com","service":"projects","timestamp":"2025-06-10T13:58:12.033Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T13:58:27.756Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:58:28.087Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:58:28.088Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T13:58:28.088Z"}
+{"level":"info","message":"POST /api/projects - ::1","service":"server","timestamp":"2025-06-10T13:58:48.139Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T13:58:58.919Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T13:58:59.279Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T13:58:59.280Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T13:58:59.280Z"}
+{"level":"info","message":"POST /api/projects - ::1","service":"server","timestamp":"2025-06-10T13:59:25.788Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T14:00:30.953Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T14:00:31.335Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T14:00:31.336Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T14:00:31.336Z"}
+{"level":"info","message":"POST /api/projects - ::1","service":"server","timestamp":"2025-06-10T14:00:57.168Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T14:03:58.251Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T14:03:58.755Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T14:03:58.756Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T14:03:58.756Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T14:04:49.804Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T14:04:50.158Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T14:04:50.159Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T14:04:50.159Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:11:52.147Z"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"server","timestamp":"2025-06-10T14:14:47.131Z"}
+{"level":"info","message":"User registered: demo@vibeplay.com","service":"auth","timestamp":"2025-06-10T14:14:47.351Z"}
+{"level":"info","message":"POST /api/projects - ::1","service":"server","timestamp":"2025-06-10T14:16:32.315Z"}
+{"level":"info","message":"Project created: 테스트 스킨케어 프로젝트 by user demo@vibeplay.com","service":"projects","timestamp":"2025-06-10T14:16:32.317Z"}
+{"level":"info","message":"POST /api/ai/generate - ::1","service":"server","timestamp":"2025-06-10T14:16:45.001Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T14:17:33.125Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T14:17:33.635Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T14:17:33.636Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T14:17:33.636Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T14:17:44.644Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T14:17:44.992Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T14:17:44.993Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T14:17:44.993Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","service":"server","timestamp":"2025-06-10T14:17:52.254Z"}
+{"level":"info","message":"Backend server running on port 3000","service":"server","timestamp":"2025-06-10T14:19:08.983Z"}
+{"level":"info","message":"Health check: http://localhost:3000/health","service":"server","timestamp":"2025-06-10T14:19:08.983Z"}
+{"level":"info","message":"API endpoints available at: http://localhost:3000/api/","service":"server","timestamp":"2025-06-10T14:19:08.984Z"}
+{"level":"info","message":"POST /api/auth/register - ::1","service":"server","timestamp":"2025-06-10T14:21:27.470Z"}
+{"level":"info","message":"User registered: test@vibeplay.com","service":"auth","timestamp":"2025-06-10T14:21:27.685Z"}
+{"level":"info","message":"POST /api/projects - ::1","service":"server","timestamp":"2025-06-10T14:21:41.047Z"}
+{"level":"info","message":"Project created: AI 테스트 프로젝트 by user test@vibeplay.com","service":"projects","timestamp":"2025-06-10T14:21:41.049Z"}
+{"level":"info","message":"POST /api/ai/generate - ::1","service":"server","timestamp":"2025-06-10T14:21:59.897Z"}
+{"level":"info","message":"Generating AI suggestion for project 35cf9267-fdce-4e51-ad37-f6d34c097acd","service":"ai-routes","timestamp":"2025-06-10T14:21:59.898Z"}
+{"level":"info","message":"Using demo AI response (no OpenAI key configured)","service":"ai-service","timestamp":"2025-06-10T14:21:59.898Z"}
+{"level":"info","message":"AI suggestion saved for project 35cf9267-fdce-4e51-ad37-f6d34c097acd, version 1","service":"ai-routes","timestamp":"2025-06-10T14:21:59.899Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:23:24.893Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:23:24.895Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:23:24.898Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:23:24.899Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:23:54.937Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:23:54.938Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:23:54.940Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:23:54.941Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:24:00.081Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:24:00.082Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:00.084Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:00.085Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:24:06.536Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:24:06.537Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:06.538Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:06.539Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:08.802Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:09.980Z"}
+{"level":"info","message":"GET / - ::1","service":"server","timestamp":"2025-06-10T14:24:50.008Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:24:56.196Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:24:56.197Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:56.199Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:24:56.200Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:03.545Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:03.546Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:03.551Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:03.552Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:06.570Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:07.005Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:07.326Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:07.784Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:08.729Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:09.661Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:09.942Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:10.248Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:34.151Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:34.152Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:34.154Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:34.155Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:54.630Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:54.631Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:54.633Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:54.634Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:59.818Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:25:59.819Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:59.821Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:25:59.822Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:26:12.995Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:26:12.996Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:26:12.999Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:26:13.000Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:28:36.864Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:28:36.865Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:36.867Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:36.868Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:28:42.641Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:28:42.642Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:42.644Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:42.644Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:44.057Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:44.591Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:44.881Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:45.294Z"}
+{"level":"info","message":"GET /health - ::1","service":"server","timestamp":"2025-06-10T14:28:50.914Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:28:56.160Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:28:56.161Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:56.164Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:28:56.164Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:29:49.550Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:29:49.551Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:29:49.580Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:29:49.581Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:30:20.735Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:30:20.736Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:20.739Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:20.740Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:30:36.755Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:30:36.756Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:36.759Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:36.759Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:37.683Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:38.867Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:39.493Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:44.700Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:45.059Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:45.348Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:30:45.806Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:32:41.358Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:32:41.359Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:32:41.361Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:32:41.362Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:32:49.969Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:32:49.969Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:32:49.972Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:32:49.973Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:33:13.434Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:33:13.435Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:33:13.437Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:33:13.438Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:33:19.520Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:33:19.640Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:33:19.754Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:33:33.025Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:33:33.026Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:33:33.028Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:33:33.029Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:38:43.313Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:38:43.314Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:38:43.317Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:38:43.318Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:39:27.171Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:39:27.172Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:27.174Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:27.175Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:39:42.485Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:39:42.486Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:42.488Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:42.489Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:45.520Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:46.115Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:47.674Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:48.178Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:49.361Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:39:58.129Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:39:58.130Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:58.132Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:39:58.135Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:40:20.458Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:40:20.459Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:40:20.461Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:40:20.461Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:51:54.932Z"}
+{"level":"info","message":"GET /api/trends/categories - ::1","service":"server","timestamp":"2025-06-10T14:51:54.933Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:51:54.935Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T14:51:54.936Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T15:58:19.212Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T15:58:19.229Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T15:58:25.909Z"}
+{"level":"info","message":"GET /api/trends - ::1","service":"server","timestamp":"2025-06-10T15:58:25.909Z"}
