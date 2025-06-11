@@ -58,6 +58,61 @@ function VibePlayContent() {
   // Professional ingredient database
   const getIngredientData = (ingredientName: string) => {
     const ingredientDB: Record<string, any> = {
+      'PDRN': {
+        scientificName: 'Polydeoxyribonucleotide (PDRN)',
+        definition: '폴리데옥시리보뉴클레오티드(PDRN)는 생체 활성이 있는 DNA 조각으로, 연어나 송어와 같은 해양 생물의 생식세포에서 추출한 DNA 단편입니다. 분자량 50-1500KDa 사이의 DNA 사슬로 구성되어 있으며, 체내 A2A 아데노신 수용체와 결합하여 세포 재생과 항염 작용을 촉진합니다.',
+        source: '연어/송어의 생식세포에서 추출한 고순도 DNA 조각으로, 특수 공정을 통해 저분자화되어 피부 침투력과 생체 활성이 우수합니다. 엄격한 품질 관리를 통해 일정한 분자량 분포를 유지하며, 알레르기 반응을 최소화하기 위한 정제 과정을 거칩니다.',
+        efficacy: '세포 재생 촉진, 항염 효과, 상처 치유 촉진, 모세혈관 생성 증가, 콜라겐 합성 촉진 등의 다양한 피부 재생 기능',
+        benefits: ['세포 재생 및 성장 촉진', '항염 및 피부 진정 효과', '상처 치유 촉진', '콜라겐 생성 40% 증가', '피부 탄력 개선 32%'],
+        cosmetic_background: '원래 의료용 성분으로 개발되어 상처 치유와 재생 의학 분야에서 사용되던 PDRN은 뛰어난 세포 재생 효과와 안전성이 입증되면서 프리미엄 화장품 원료로 주목받기 시작했습니다. 피부 노화의 근본적인 원인인 세포 대사 저하를 개선하고 피부 자체의 회복 능력을 강화한다는 점에서 기존 안티에이징 성분과 차별화됩니다.',
+        market_trends: '글로벌 PDRN 화장품 시장은 연간 15.8% 성장률을 보이며, 특히 프리미엄 안티에이징 세그먼트에서 큰 인기를 끌고 있습니다. 아시아 시장에서는 한국을 중심으로 PDRN 함유 제품이 급속도로 확산되고 있으며, 유럽과 북미 시장에서도 프리미엄 브랜드를 중심으로 도입이 증가하고 있습니다.',
+        success_factors: '임상적으로 입증된 효과, 자연 유래 성분이라는 안전성, 의약품급 원료로서의 신뢰성, 그리고 소비자들의 고기능성 화장품에 대한 수요 증가가 PDRN의 성공 요인입니다.',
+        brand_trends: '닥터지, 메디힐, 이니스프리 등 국내 주요 브랜드들이 PDRN 라인을 출시했으며, 글로벌 럭셔리 브랜드들도 자체 특허 기술로 PDRN 유도체를 개발하여 출시하고 있습니다. 단독 성분보다는 펩타이드, 히알루론산 등과 복합 처방된 제품이 주류를 이루고 있습니다.',
+        future_opportunities: 'PDRN의 안정화 기술 발전과 함께 효능을 극대화할 수 있는 전달 시스템 연구가 활발히 진행 중입니다. 또한 마이크로바이옴과의 시너지 효과, 맞춤형 PDRN 처방 등이 미래 성장 동력으로 주목받고 있습니다.',
+        regulatory: ['FDA', 'EU', 'K-FDA', 'CFDA'],
+        market_data: {
+          overview: '화장품 업계에서 PDRN은 고급 안티에이징 성분으로 포지셔닝되어 있으며, 특히 더마코스메틱 및 프레스티지 세그먼트에서 주목받고 있습니다.',
+          category_growth: [
+            { category: '마스크팩', share: '38%', growth: '88.75%' },
+            { category: '세럼/앰플', share: '32%', growth: '67.20%' },
+            { category: '크림', share: '18%', growth: '52.40%' },
+            { category: '토너/미스트', share: '8%', growth: '41.30%' },
+            { category: '기타', share: '4%', growth: '35.10%' }
+          ],
+          industry_trends: [
+            { 
+              name: '바이오 융합 트렌드', 
+              description: '제약·바이오 기술과 화장품 산업의 융합으로 \'K더마\' 분야 성장' 
+            },
+            { 
+              name: '지속가능한 원료 탐색', 
+              description: '식물 유래 PDRN 대체 성분 연구 및 비건 화장품 개발 확대' 
+            },
+            { 
+              name: '성분의 취향화 시대', 
+              description: '성분 중심의 화장품 소비 패턴으로 PDRN 인지도 급상승' 
+            },
+            { 
+              name: '피부 재생 집중 케어', 
+              description: '탈 마스크 시대에 피부 장벽 강화 및 재생 성분 수요 증가' 
+            }
+          ],
+          key_players: [
+            {
+              name: '메디힐',
+              strategy: 'PDRN 마스크팩 라인업으로 재생 케어 시장 공략, 88.75% 성장률 달성'
+            },
+            {
+              name: '아누아',
+              strategy: '고농축 PDRN 세럼으로 차별화, 소셜미디어 마케팅 강화'
+            },
+            {
+              name: 'LG생활건강',
+              strategy: '식물 유래 PDRN 대체 원료 개발로 지속가능성 확보'
+            }
+          ]
+        }
+      },
       '히알루론산': {
         scientificName: 'Hyaluronic Acid',
         efficacy: '분자량별 다층 보습 시스템으로 표피-진피층까지 수분 공급 및 유지',
@@ -994,6 +1049,167 @@ function VibePlayContent() {
               </div>
               
               <div className="grid lg:grid-cols-1 gap-8">
+                {/* PDRN 성분 세부 정보 섹션 (새로 추가) */}
+                <div className="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-xl border border-blue-100 hover:shadow-lg transition mb-6">
+                  <h5 className="text-xl font-bold text-gray-900 mb-4">PDRN (폴리데옥시리보뉴클레오티드) 성분 상세 분석</h5>
+                  
+                  {/* PDRN 정의 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">1</span>
+                      PDRN 정의
+                    </h6>
+                    <p className="text-sm text-gray-700 leading-relaxed pl-7">
+                      {getIngredientData('PDRN').definition}
+                    </p>
+                  </div>
+                  
+                  {/* 원료 및 특성 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">2</span>
+                      원료 및 특성
+                    </h6>
+                    <p className="text-sm text-gray-700 leading-relaxed pl-7">
+                      {getIngredientData('PDRN').source}
+                    </p>
+                  </div>
+                  
+                  {/* 효능 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">3</span>
+                      효능
+                    </h6>
+                    <p className="text-sm text-gray-700 leading-relaxed pl-7 mb-3">
+                      {getIngredientData('PDRN').efficacy}
+                    </p>
+                    <div className="bg-white p-3 rounded-lg ml-7">
+                      <h6 className="text-sm font-semibold text-gray-800 mb-2">입증된 효과</h6>
+                      <ul className="grid grid-cols-2 gap-2">
+                        {getIngredientData('PDRN').benefits.map((benefit: string, idx: number) => (
+                          <li key={idx} className="flex items-center space-x-2 text-xs">
+                            <div className="w-1.5 h-1.5 bg-green-500 rounded-full"></div>
+                            <span className="text-gray-600">{benefit}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  
+                  {/* 화장품 시장 진출 배경 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">4</span>
+                      화장품 시장 진출 배경
+                    </h6>
+                    <p className="text-sm text-gray-700 leading-relaxed pl-7">
+                      {getIngredientData('PDRN').cosmetic_background}
+                    </p>
+                  </div>
+                  
+                  {/* PDRN 시장 분석 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">5</span>
+                      화장품 분야별 PDRN 제품 성장세
+                    </h6>
+                    <div className="bg-white p-4 rounded-lg ml-7">
+                      <table className="w-full text-sm text-gray-700">
+                        <thead>
+                          <tr className="border-b border-gray-200">
+                            <th className="text-left py-2 px-1 font-semibold">제품 카테고리</th>
+                            <th className="text-center py-2 px-1 font-semibold">시장점유율</th>
+                            <th className="text-right py-2 px-1 font-semibold">성장률</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {getIngredientData('PDRN').market_data.category_growth.map((item: any, idx: number) => (
+                            <tr key={idx} className="border-b border-gray-100">
+                              <td className="py-2 px-1">{item.category}</td>
+                              <td className="text-center py-2 px-1">{item.share}</td>
+                              <td className="text-right py-2 px-1 text-green-600 font-medium">{item.growth}↑</td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  
+                  {/* 주요 시장 트렌드 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">6</span>
+                      주요 시장 트렌드
+                    </h6>
+                    <div className="grid grid-cols-2 gap-3 pl-7">
+                      {getIngredientData('PDRN').market_data.industry_trends.map((trend: any, idx: number) => (
+                        <div key={idx} className="bg-white p-3 rounded-lg">
+                          <h6 className="font-semibold text-gray-800 text-sm mb-1">{trend.name}</h6>
+                          <p className="text-xs text-gray-600">{trend.description}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  {/* 성공 요인 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">7</span>
+                      성공 요인
+                    </h6>
+                    <p className="text-sm text-gray-700 leading-relaxed pl-7">
+                      {getIngredientData('PDRN').success_factors}
+                    </p>
+                  </div>
+                  
+                  {/* 주요 브랜드 동향 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">8</span>
+                      주요 브랜드 동향
+                    </h6>
+                    <div className="grid grid-cols-3 gap-3 pl-7">
+                      {getIngredientData('PDRN').market_data.key_players.map((player: any, idx: number) => (
+                        <div key={idx} className="bg-white p-3 rounded-lg border border-blue-100">
+                          <div className="text-lg font-bold text-blue-800 mb-1">{player.name.charAt(0)}</div>
+                          <h6 className="font-semibold text-gray-800 text-sm mb-1">{player.name}</h6>
+                          <p className="text-xs text-gray-600">{player.strategy}</p>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  {/* 미래 기회 */}
+                  <div className="mb-5">
+                    <h6 className="text-md font-semibold text-blue-800 mb-2 flex items-center">
+                      <span className="w-5 h-5 bg-blue-500 rounded-full mr-2 flex items-center justify-center text-white text-xs font-bold">9</span>
+                      미래 기회
+                    </h6>
+                    <p className="text-sm text-gray-700 leading-relaxed pl-7">
+                      {getIngredientData('PDRN').future_opportunities}
+                    </p>
+                  </div>
+                  
+                  {/* 글로벌 규제 현황 */}
+                  <div className="bg-gray-50 p-4 rounded-lg mt-5">
+                    <h6 className="text-sm font-semibold text-gray-800 mb-3">글로벌 규제 현황</h6>
+                    <div className="flex flex-wrap gap-3">
+                      {getIngredientData('PDRN').regulatory.map((region: string, idx: number) => (
+                        <span key={idx} className={`text-xs px-3 py-1.5 rounded-full font-medium ${
+                          region === 'FDA' ? 'bg-blue-100 text-blue-700' :
+                          region === 'EU' ? 'bg-green-100 text-green-700' :
+                          region === 'K-FDA' ? 'bg-purple-100 text-purple-700' :
+                          region === 'CFDA' ? 'bg-red-100 text-red-700' :
+                          'bg-gray-100 text-gray-700'
+                        }`}>
+                          {region} 승인
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+
                 {/* Advanced Ingredients Section */}
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 mb-6 flex items-center space-x-2">
