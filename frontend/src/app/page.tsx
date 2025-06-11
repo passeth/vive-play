@@ -6,7 +6,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="flex items-center justify-between p-6 lg:px-8">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg"></div>
+          <div className="w-8 h-8 bg-gradient-brand rounded-lg"></div>
           <span className="text-2xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
             Vibe-Play
           </span>
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="flex items-center space-x-4">
           <Link href="/login" className="text-gray-600 hover:text-pink-600 transition">로그인</Link>
-          <Link href="/signup" className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-4 py-2 rounded-lg hover:shadow-lg transition">
+          <Link href="/signup" className="bg-gradient-brand text-white px-4 py-2 rounded-lg hover:shadow-lg transition">
             시작하기
           </Link>
         </div>
@@ -40,7 +40,7 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <Link href="/vibe-play" className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-xl transform hover:scale-105 transition">
+            <Link href="/vibe-play" className="bg-gradient-brand text-white px-8 py-4 rounded-xl text-lg font-semibold hover:shadow-xl transform hover:scale-105 transition">
               무료로 시작하기
             </Link>
             <Link href="/trends" className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl text-lg font-semibold hover:border-pink-500 hover:text-pink-600 transition">
@@ -51,7 +51,7 @@ export default function Home() {
 
         {/* Features Grid */}
         <div className="grid md:grid-cols-3 gap-8 mt-20">
-          <div className="bg-white/60 backdrop-blur-sm p-8 rounded-2xl border border-pink-100 hover:shadow-xl transition">
+          <div className="bg-white/60 backdrop-blur-sm p-8 rounded-2xl border border-primary-100 hover:shadow-xl transition">
             <div className="w-12 h-12 bg-gradient-to-r from-pink-400 to-pink-600 rounded-xl mb-6 flex items-center justify-center">
               <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />

@@ -354,15 +354,15 @@ function VibePlayContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg"></div>
-              <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent">
+              <div className="w-8 h-8 bg-gradient-brand rounded-lg"></div>
+              <Link href="/" className="text-2xl font-bold bg-gradient-brand bg-clip-text text-transparent">
                 Vibe-Play
               </Link>
             </div>
             <div className="flex items-center space-x-6">
-              <Link href="/dashboard" className="text-gray-600 hover:text-pink-600 transition">대시보드</Link>
-              <Link href="/trends" className="text-gray-600 hover:text-pink-600 transition">트렌드핀</Link>
-              <Link href="/vibe-play" className="text-pink-600 font-semibold">Vibe Play</Link>
+              <Link href="/dashboard" className="text-gray-600 hover:text-primary-600 transition">대시보드</Link>
+              <Link href="/trends" className="text-gray-600 hover:text-primary-600 transition">트렌드핀</Link>
+              <Link href="/vibe-play" className="text-primary-600 font-semibold">Vibe Play</Link>
               <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
             </div>
           </div>
@@ -405,7 +405,7 @@ function VibePlayContent() {
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2">
             <div 
-              className="bg-gradient-to-r from-pink-500 to-purple-600 h-2 rounded-full transition-all duration-300"
+              className="bg-gradient-brand h-2 rounded-full transition-all duration-300"
               style={{ width: `${(step/4) * 100}%` }}
             ></div>
           </div>
@@ -490,7 +490,7 @@ function VibePlayContent() {
               <button
                 onClick={handleCreateProject}
                 disabled={!formData.productType || !formData.targetCustomer}
-                className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:shadow-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
+                className="bg-gradient-brand text-white px-6 py-3 rounded-lg hover:shadow-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 프로젝트 생성 후 계속
               </button>
@@ -552,7 +552,7 @@ function VibePlayContent() {
                 </Link>
                 <button
                   onClick={() => setStep(3)}
-                  className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:border-pink-500 transition"
+                  className="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:border-primary-500 transition"
                 >
                   건너뛰기
                 </button>
@@ -568,7 +568,7 @@ function VibePlayContent() {
               </button>
               <button
                 onClick={() => setStep(3)}
-                className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:shadow-lg transition"
+                className="bg-gradient-brand text-white px-6 py-3 rounded-lg hover:shadow-lg transition"
               >
                 다음 단계
               </button>
@@ -613,7 +613,7 @@ function VibePlayContent() {
               <button
                 onClick={handleGenerateAI}
                 disabled={!formData.concept || isGenerating}
-                className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-lg hover:shadow-lg transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center space-x-2"
+                className="bg-gradient-brand text-white px-6 py-3 rounded-lg hover:shadow-lg transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center space-x-2"
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -627,7 +627,7 @@ function VibePlayContent() {
         {/* Loading State */}
         {isGenerating && (
           <div className="bg-white p-8 rounded-xl border border-gray-200 text-center">
-            <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse">
+            <div className="w-16 h-16 bg-gradient-brand rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse">
               <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
@@ -641,11 +641,11 @@ function VibePlayContent() {
         {step === 4 && aiSuggestion && (
           <div className="space-y-6">
             {/* Hero Section with Product Visual */}
-            <div className="bg-gradient-to-br from-pink-50 via-white to-purple-50 p-8 rounded-xl border border-gray-200 overflow-hidden relative">
+            <div className="bg-gradient-to-br from-primary-50 via-white to-secondary-50 p-8 rounded-xl border border-gray-200 overflow-hidden relative">
               <div className="grid lg:grid-cols-2 gap-8 items-center">
                 {/* Product Info */}
                 <div className="space-y-4">
-                  <div className="inline-block bg-gradient-to-r from-pink-500 to-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+                  <div className="inline-block bg-gradient-brand text-white px-3 py-1 rounded-full text-sm font-medium">
                     {formData.productType}
                   </div>
                   <h2 className="text-3xl font-bold text-gray-900">{aiSuggestion.product_name}</h2>
@@ -907,7 +907,7 @@ function VibePlayContent() {
                 <h4 className="text-lg font-semibold text-gray-900 mb-4">Instagram 브랜드 피드</h4>
                 <div className="grid grid-cols-3 gap-2">
                   {/* Post 1: Product Shot */}
-                  <div className="relative aspect-square bg-gradient-to-br from-pink-100 to-purple-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition group cursor-pointer">
+                  <div className="relative aspect-square bg-gradient-to-br from-primary-100 to-secondary-100 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition group cursor-pointer">
                     <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-purple-200/40"></div>
                     <div className="absolute top-2 left-2 w-6 h-6 bg-white rounded-full shadow-sm flex items-center justify-center">
                       <div className="w-3 h-3 bg-gradient-to-r from-pink-400 to-purple-500 rounded-full"></div>
@@ -1227,7 +1227,7 @@ function VibePlayContent() {
                       const ingredientData = getIngredientData(ingredientName);
                       
                       return (
-                        <div key={index} className="bg-gradient-to-br from-pink-50 to-purple-50 p-6 rounded-xl border border-pink-100 hover:shadow-lg transition">
+                        <div key={index} className="bg-gradient-to-br from-primary-50 to-secondary-50 p-6 rounded-xl border border-primary-100 hover:shadow-lg transition">
                           {/* Ingredient Visual */}
                           <div className="flex items-start space-x-4 mb-4">
                             <div className="w-16 h-16 rounded-xl flex items-center justify-center shadow-md relative overflow-hidden">
@@ -1245,7 +1245,7 @@ function VibePlayContent() {
                                 </div>
                               )}
                               {ingredientName === '펩타이드 복합체' && (
-                                <div className="absolute inset-0 bg-gradient-to-br from-purple-100 via-purple-200 to-indigo-300">
+                                <div className="absolute inset-0 bg-gradient-to-br from-primary-100 via-primary-200 to-secondary-300">
                                   {/* Molecular structure texture */}
                                   <div className="absolute inset-1 bg-gradient-to-br from-white/20 to-transparent rounded-lg">
                                     <div className="absolute top-2 left-2 w-1.5 h-1.5 bg-purple-600 rounded-full"></div>
@@ -1309,7 +1309,7 @@ function VibePlayContent() {
                               <div className="flex items-center justify-between mb-2">
                                 <h5 className="font-bold text-gray-900">{ingredientName}</h5>
                                 {typeof ingredient === 'object' && ingredient.percentage && (
-                                  <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-3 py-1 rounded-full text-xs font-bold">
+                                  <span className="bg-gradient-brand text-white px-3 py-1 rounded-full text-xs font-bold">
                                     {ingredient.percentage}
                                   </span>
                                 )}
@@ -1455,28 +1455,28 @@ function VibePlayContent() {
 
                 {/* Package Specs */}
                 <div className="space-y-4">
-                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <div className="text-sm text-gray-600 mb-2 flex items-center">
-                      <span className="w-2 h-2 bg-pink-500 rounded-full mr-2"></span>
+                      <span className="w-2 h-2 bg-primary-500 rounded-full mr-2"></span>
                       용기 유형
                     </div>
                     <div className="font-semibold text-gray-900 text-lg">{aiSuggestion.design?.packaging}</div>
                   </div>
-                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <div className="text-sm text-gray-600 mb-2 flex items-center">
                       <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
                       컬러 스킴
                     </div>
                     <div className="font-semibold text-gray-900 text-lg">{aiSuggestion.design?.color}</div>
                   </div>
-                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <div className="text-sm text-gray-600 mb-2 flex items-center">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
                       용량
                     </div>
                     <div className="font-semibold text-gray-900 text-lg">{aiSuggestion.design?.size}</div>
                   </div>
-                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                  <div className="bg-gradient-to-r from-primary-50 to-secondary-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <div className="text-sm text-gray-600 mb-2 flex items-center">
                       <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
                       디자인 스타일
@@ -1643,7 +1643,7 @@ function VibePlayContent() {
                 
                 {/* Generate Button */}
                 <div className="flex justify-center mb-8">
-                  <button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-3 rounded-lg hover:shadow-lg transition flex items-center space-x-2">
+                  <button className="bg-gradient-brand text-white px-8 py-3 rounded-lg hover:shadow-lg transition flex items-center space-x-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                     </svg>
@@ -1895,7 +1895,7 @@ function VibePlayContent() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   <button
                     onClick={() => setStep(3)}
-                    className="flex items-center justify-center space-x-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-pink-500 hover:text-pink-600 transition"
+                    className="flex items-center justify-center space-x-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:border-primary-500 hover:text-primary-600 transition"
                   >
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 17l-5-5m0 0l5-5m-5 5h12" />
@@ -1916,7 +1916,7 @@ function VibePlayContent() {
                   
                   <button 
                     onClick={handleAcceptSuggestion}
-                    className="flex items-center justify-center space-x-2 px-8 py-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg hover:shadow-lg transition transform hover:scale-105"
+                    className="flex items-center justify-center space-x-2 px-8 py-3 bg-gradient-brand text-white rounded-lg hover:shadow-lg transition transform hover:scale-105"
                   >
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -1956,7 +1956,7 @@ export default function VibePlay() {
   return (
     <Suspense fallback={<div className="min-h-screen bg-gray-50 flex items-center justify-center">
       <div className="text-center">
-        <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse">
+        <div className="w-16 h-16 bg-gradient-brand rounded-full mx-auto mb-4 flex items-center justify-center animate-pulse">
           <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
           </svg>
