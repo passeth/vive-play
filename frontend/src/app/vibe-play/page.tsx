@@ -623,68 +623,89 @@ function VibePlayContent() {
             <div className="bg-white p-8 rounded-xl border border-gray-200 mb-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">제품 USP & 사용법</h3>
               
-              <div className="grid lg:grid-cols-2 gap-8">
-                {/* Product USP */}
-                <div>
-                  <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center space-x-2">
-                    <div className="w-6 h-6 bg-green-500 rounded-lg flex items-center justify-center">
-                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-                      </svg>
+              <div>
+                <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center space-x-2">
+                  <div className="w-6 h-6 bg-green-500 rounded-lg flex items-center justify-center">
+                    <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                    </svg>
+                  </div>
+                  <span>핵심 경쟁력 (USP)</span>
+                </h4>
+                <div className="space-y-3">
+                  <div className="flex items-start space-x-3 p-4 bg-green-50 rounded-lg border border-green-100">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-xs font-bold">1</span>
                     </div>
-                    <span>핵심 경쟁력 (USP)</span>
-                  </h4>
-                  <div className="space-y-3">
-                    <div className="flex items-start space-x-3 p-3 bg-green-50 rounded-lg border border-green-100">
-                      <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <span className="text-white text-xs font-bold">1</span>
-                      </div>
-                      <div>
-                        <h5 className="font-semibold text-gray-900">다층 보습 시스템</h5>
-                        <p className="text-sm text-gray-600">3가지 분자량의 히알루론산으로 표피부터 진피까지 단계별 수분 공급</p>
-                      </div>
+                    <div>
+                      <h5 className="font-semibold text-gray-900">다층 보습 시스템</h5>
+                      <p className="text-sm text-gray-600 mb-2">3가지 분자량의 히알루론산으로 표피부터 진피까지 단계별 수분 공급</p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        저분자, 중분자, 고분자 히알루론산을 최적의 비율로 배합하여 피부 각 층에 맞춤형 수분을 공급합니다. 
+                        저분자는 깊은 피부층까지 침투해 수분을 충전하고, 중분자는 중간층에서 수분을 붙잡아두며, 고분자는 표면에서 수분 증발을 막아 3중 보습 장벽을 형성합니다. 
+                        임상 테스트 결과, 사용 2시간 후 피부 수분량 47% 증가, 24시간 후에도 32% 이상 유지되는 놀라운 효과를 보였습니다.
+                      </p>
                     </div>
-                    <div className="flex items-start space-x-3 p-3 bg-green-50 rounded-lg border border-green-100">
-                      <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <span className="text-white text-xs font-bold">2</span>
-                      </div>
-                      <div>
-                        <h5 className="font-semibold text-gray-900">즉시 & 지속 효과</h5>
-                        <p className="text-sm text-gray-600">발림과 동시에 느껴지는 보습감과 24시간 지속되는 수분 유지력</p>
-                      </div>
+                  </div>
+                  <div className="flex items-start space-x-3 p-4 bg-green-50 rounded-lg border border-green-100">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-xs font-bold">2</span>
                     </div>
-                    <div className="flex items-start space-x-3 p-3 bg-green-50 rounded-lg border border-green-100">
-                      <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <span className="text-white text-xs font-bold">3</span>
-                      </div>
-                      <div>
-                        <h5 className="font-semibold text-gray-900">임상 검증된 성분 조합</h5>
-                        <p className="text-sm text-gray-600">펩타이드-세라마이드 복합체로 피부 장벽 강화와 탄력 개선 동시 구현</p>
-                      </div>
+                    <div>
+                      <h5 className="font-semibold text-gray-900">즉시 & 지속 효과</h5>
+                      <p className="text-sm text-gray-600 mb-2">발림과 동시에 느껴지는 보습감과 24시간 지속되는 수분 유지력</p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        특허받은 '인스턴트 하이드레이션 테크놀로지'가 적용되어 제품이 피부에 닿는 즉시 수분 분자가 활성화됩니다. 
+                        이 기술은 피부 표면에 미세한 수분막을 형성하여 즉각적인 촉촉함을 선사하며, 동시에 심층 보습 인자가 서서히 방출되어 하루 종일 수분이 유지됩니다. 
+                        바쁜 현대인의 라이프스타일에 맞춰 아침 한 번의 사용으로도 저녁까지 보습이 지속되어 메이크업의 들뜸이나 건조함 없이 하루 종일 편안한 피부를 유지할 수 있습니다.
+                      </p>
                     </div>
-                    <div className="flex items-start space-x-3 p-3 bg-green-50 rounded-lg border border-green-100">
-                      <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <span className="text-white text-xs font-bold">4</span>
-                      </div>
-                      <div>
-                        <h5 className="font-semibold text-gray-900">모든 피부타입 적합</h5>
-                        <p className="text-sm text-gray-600">민감성 피부부터 건성 피부까지 안전하게 사용 가능한 순한 포뮬레이션</p>
-                      </div>
+                  </div>
+                  <div className="flex items-start space-x-3 p-4 bg-green-50 rounded-lg border border-green-100">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-xs font-bold">3</span>
                     </div>
-                    <div className="flex items-start space-x-3 p-3 bg-green-50 rounded-lg border border-green-100">
-                      <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <span className="text-white text-xs font-bold">5</span>
-                      </div>
-                      <div>
-                        <h5 className="font-semibold text-gray-900">혁신적 에어레스 펌핑</h5>
-                        <p className="text-sm text-gray-600">산화 방지와 정량 분출로 마지막까지 신선한 상태 유지</p>
-                      </div>
+                    <div>
+                      <h5 className="font-semibold text-gray-900">임상 검증된 성분 조합</h5>
+                      <p className="text-sm text-gray-600 mb-2">펩타이드-세라마이드 복합체로 피부 장벽 강화와 탄력 개선 동시 구현</p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        스위스 연구소에서 개발된 독점 펩타이드-세라마이드 복합체는 3년간의 연구 끝에 탄생한 혁신적인 성분입니다. 
+                        시그널 펩타이드가 피부 세포에 콜라겐과 엘라스틴 생성 신호를 전달하여 탄력을 개선하고, 세라마이드 NP와 세라마이드 EOP가 피부 장벽을 강화합니다. 
+                        40명의 여성을 대상으로 한 8주 임상 시험 결과, 피부 탄력 23% 향상, 피부 장벽 기능 31% 개선, 수분 손실량 42% 감소 효과가 입증되었습니다.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3 p-4 bg-green-50 rounded-lg border border-green-100">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-xs font-bold">4</span>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-gray-900">모든 피부타입 적합</h5>
+                      <p className="text-sm text-gray-600 mb-2">민감성 피부부터 건성 피부까지 안전하게 사용 가능한 순한 포뮬레이션</p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        알러지 전문의와 피부과 전문의의 공동 연구로 개발된 저자극 포뮬라는 20가지 이상의 민감성 피부 테스트를 통과했습니다. 
+                        파라벤, 인공향료, 알코올, 실리콘 등 피부 자극 유발 가능 성분을 배제하고, 피부 pH와 유사한 약산성 포뮬라로 설계되어 가장 예민한 피부도 안심하고 사용할 수 있습니다. 
+                        더불어 식물성 진정 성분인 판테놀과 마데카소사이드를 함유하여 즉각적인 진정 효과를 제공하므로 건조함이나 홍조로 고민하는 피부에도 이상적입니다.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start space-x-3 p-4 bg-green-50 rounded-lg border border-green-100">
+                    <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                      <span className="text-white text-xs font-bold">5</span>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-gray-900">혁신적 에어레스 펌핑</h5>
+                      <p className="text-sm text-gray-600 mb-2">산화 방지와 정량 분출로 마지막까지 신선한 상태 유지</p>
+                      <p className="text-sm text-gray-700 leading-relaxed">
+                        독일 엔지니어링 기술로 개발된 프리미엄 에어레스 펌프 시스템은 제품과 공기의 접촉을 완벽히 차단하여 유효 성분의 산화를 방지합니다. 
+                        정확히 0.5ml씩 분출되는 정량 시스템으로 제품 낭비를 줄이고, 99.9%의 제품 회수율을 자랑하여 마지막 한 방울까지 신선하게 사용할 수 있습니다. 
+                        특수 설계된 밸브 시스템이 역류를 방지하고 미생물 오염을 차단하여 방부제 최소화에도 불구하고 제품의 안정성과 청결함을 유지합니다.
+                      </p>
                     </div>
                   </div>
                 </div>
-
-                {/* Usage Instructions */}
-                <div>
+                
+                <div className="mt-8">
                   <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center space-x-2">
                     <div className="w-6 h-6 bg-blue-500 rounded-lg flex items-center justify-center">
                       <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1157,17 +1178,37 @@ function VibePlayContent() {
               <h3 className="text-2xl font-bold text-gray-900 mb-6">패키지 디자인</h3>
               
               <div className="grid md:grid-cols-3 gap-6">
-                {/* Package 3D View */}
+                {/* Package 3D View with Carousel */}
                 <div className="md:col-span-2">
-                  <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 h-64 flex items-center justify-center relative overflow-hidden">
-                    {/* 3D Package Mockup */}
-                    <div className="relative transform rotate-12">
-                      <div className="w-32 h-48 bg-gradient-to-b from-white to-gray-200 rounded-xl shadow-2xl relative">
+                  <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-xl p-8 h-80 flex items-center justify-center relative overflow-hidden">
+                    {/* Navigation Arrows */}
+                    <button className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 rounded-full p-2 shadow-md hover:bg-white transition-colors duration-200">
+                      <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                      </svg>
+                    </button>
+                    <button className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 rounded-full p-2 shadow-md hover:bg-white transition-colors duration-200">
+                      <svg className="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </button>
+                    
+                    {/* Package Counter */}
+                    <div className="absolute top-4 right-4 bg-black/30 text-white text-xs px-3 py-1 rounded-full backdrop-blur-sm">
+                      1/3
+                    </div>
+                    
+                    {/* 3D Package Mockup - Current Design */}
+                    <div className="relative transform rotate-12 hover:scale-110 transition-transform duration-300">
+                      <div className="w-40 h-56 bg-gradient-to-b from-white to-gray-200 rounded-xl shadow-2xl relative">
                         {/* Label */}
-                        <div className="absolute top-4 left-2 right-2 h-24 bg-gradient-to-r from-pink-400 to-purple-500 rounded-lg flex items-center justify-center">
+                        <div className="absolute top-4 left-2 right-2 h-32 bg-gradient-to-r from-pink-400 to-purple-500 rounded-lg flex items-center justify-center">
                           <div className="text-center text-white">
-                            <h4 className="font-bold text-sm">{aiSuggestion.product_name}</h4>
-                            <p className="text-xs opacity-90">{aiSuggestion.design?.size}</p>
+                            <h4 className="font-bold text-lg">{aiSuggestion.product_name}</h4>
+                            <p className="text-sm opacity-90 mt-1">{aiSuggestion.design?.size}</p>
+                            <div className="mt-2 px-3 py-1 bg-white/20 rounded-full text-xs inline-block">
+                              {formData.productType}
+                            </div>
                           </div>
                         </div>
                         {/* Bottom detail */}
@@ -1178,35 +1219,236 @@ function VibePlayContent() {
                     </div>
                     
                     {/* Background Elements */}
-                    <div className="absolute top-4 left-4 w-12 h-12 bg-pink-200 rounded-full opacity-40"></div>
-                    <div className="absolute bottom-8 right-8 w-8 h-8 bg-purple-200 rounded-full opacity-40"></div>
+                    <div className="absolute top-4 left-4 w-20 h-20 bg-pink-200 rounded-full opacity-40 animate-pulse"></div>
+                    <div className="absolute bottom-8 right-8 w-16 h-16 bg-purple-200 rounded-full opacity-40 animate-pulse" style={{animationDelay: '1s'}}></div>
+                    <div className="absolute top-1/3 right-1/4 w-12 h-12 bg-blue-200 rounded-full opacity-30 animate-pulse" style={{animationDelay: '0.5s'}}></div>
+                  </div>
+                  
+                  {/* Package Design Info */}
+                  <div className="mt-4 bg-white/70 backdrop-blur-sm p-3 rounded-lg border border-gray-200 shadow-sm">
+                    <div className="flex items-center justify-between">
+                      <div className="text-sm font-medium text-gray-800">에어레스 펌프 · 30ml · 모던 럭셔리</div>
+                      <div className="flex space-x-1">
+                        <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                        <div className="w-2 h-2 bg-pink-500 rounded-full"></div>
+                        <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
                 {/* Package Specs */}
                 <div className="space-y-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <div className="text-sm text-gray-600 mb-1">용기 유형</div>
-                    <div className="font-semibold text-gray-900">{aiSuggestion.design?.packaging}</div>
+                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <div className="text-sm text-gray-600 mb-2 flex items-center">
+                      <span className="w-2 h-2 bg-pink-500 rounded-full mr-2"></span>
+                      용기 유형
+                    </div>
+                    <div className="font-semibold text-gray-900 text-lg">{aiSuggestion.design?.packaging}</div>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <div className="text-sm text-gray-600 mb-1">컬러 스킴</div>
-                    <div className="font-semibold text-gray-900">{aiSuggestion.design?.color}</div>
+                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <div className="text-sm text-gray-600 mb-2 flex items-center">
+                      <span className="w-2 h-2 bg-purple-500 rounded-full mr-2"></span>
+                      컬러 스킴
+                    </div>
+                    <div className="font-semibold text-gray-900 text-lg">{aiSuggestion.design?.color}</div>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <div className="text-sm text-gray-600 mb-1">용량</div>
-                    <div className="font-semibold text-gray-900">{aiSuggestion.design?.size}</div>
+                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <div className="text-sm text-gray-600 mb-2 flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                      용량
+                    </div>
+                    <div className="font-semibold text-gray-900 text-lg">{aiSuggestion.design?.size}</div>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <div className="text-sm text-gray-600 mb-1">디자인 스타일</div>
-                    <div className="font-semibold text-gray-900">{aiSuggestion.design?.style}</div>
+                  <div className="bg-gradient-to-r from-pink-50 to-purple-50 p-5 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <div className="text-sm text-gray-600 mb-2 flex items-center">
+                      <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                      디자인 스타일
+                    </div>
+                    <div className="font-semibold text-gray-900 text-lg">{aiSuggestion.design?.style}</div>
                   </div>
                 </div>
               </div>
+              
+              {/* Package Design Options Section */}
+              <div className="mt-10">
+                <h4 className="text-xl font-bold text-gray-900 mb-4">패키지 디자인 옵션</h4>
+                <p className="text-gray-600 mb-6">다양한 용기 타입을 선택하여 제품 패키지를 시각화해보세요. 선택 후 생성하기 버튼을 누르면 이미지가 생성됩니다.</p>
+                
+                {/* Container Type Carousel */}
+                <div className="relative mb-6">
+                  {/* Left arrow */}
+                  <button className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-md hover:bg-gray-100">
+                    <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                    </svg>
+                  </button>
+                  
+                  {/* Container Type Options */}
+                  <div className="flex overflow-x-auto py-4 px-10 snap-x scrollbar-hide">
+                    {/* Option 1: Airless Pump */}
+                    <div className="flex-shrink-0 w-1/5 px-2 snap-center">
+                      <div className="bg-white rounded-xl border-2 border-pink-400 overflow-hidden hover:shadow-lg transition cursor-pointer">
+                        <div className="aspect-square p-4 flex items-center justify-center relative">
+                          <div className="relative transform hover:scale-105 transition-transform duration-300">
+                            <div className="w-20 h-32 bg-gradient-to-b from-white to-gray-100 rounded-lg shadow-md relative">
+                              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-10 h-3 bg-pink-400 rounded-t-lg"></div>
+                              <div className="absolute top-8 left-2 right-2 bottom-4 bg-gradient-to-r from-pink-300 to-pink-400 rounded-md opacity-70"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="p-3 bg-pink-50 text-center">
+                          <h5 className="font-semibold text-gray-900 text-sm">에어레스 펌프</h5>
+                          <div className="inline-block px-2 py-1 mt-1 bg-pink-100 text-pink-700 text-xs rounded-full">선택됨</div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Option 2: Dropper */}
+                    <div className="flex-shrink-0 w-1/5 px-2 snap-center">
+                      <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition cursor-pointer">
+                        <div className="aspect-square p-4 flex items-center justify-center relative">
+                          <div className="relative transform hover:scale-105 transition-transform duration-300">
+                            <div className="w-14 h-28 bg-[rgba(255,255,255,0.8)] rounded-lg shadow-md relative">
+                              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 w-6 h-4 bg-purple-400 rounded-t-lg"></div>
+                              <div className="absolute -top-7 left-1/2 transform -translate-x-1/2 w-1 h-6 bg-gray-300"></div>
+                              <div className="absolute top-4 left-1 right-1 bottom-2 bg-purple-300 rounded-md opacity-70"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="p-3 text-center">
+                          <h5 className="font-semibold text-gray-900 text-sm">드롭퍼</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Option 3: Tube */}
+                    <div className="flex-shrink-0 w-1/5 px-2 snap-center">
+                      <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition cursor-pointer">
+                        <div className="aspect-square p-4 flex items-center justify-center relative">
+                          <div className="relative transform hover:scale-105 transition-transform duration-300">
+                            <div className="w-16 h-28 bg-gradient-to-b from-white to-gray-100 rounded-lg shadow-md relative">
+                              <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-8 h-3 bg-blue-400 rounded-t-lg"></div>
+                              <div className="absolute top-4 left-1 right-1 bottom-1 bg-blue-300 rounded-md opacity-70"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="p-3 text-center">
+                          <h5 className="font-semibold text-gray-900 text-sm">튜브</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Option 4: Jar */}
+                    <div className="flex-shrink-0 w-1/5 px-2 snap-center">
+                      <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition cursor-pointer">
+                        <div className="aspect-square p-4 flex items-center justify-center relative">
+                          <div className="relative transform hover:scale-105 transition-transform duration-300">
+                            <div className="w-24 h-16 bg-gradient-to-b from-white to-gray-100 rounded-lg shadow-md relative">
+                              <div className="absolute -top-3 left-0 right-0 h-3 bg-indigo-400 rounded-t-lg"></div>
+                              <div className="absolute top-2 left-2 right-2 bottom-2 bg-indigo-300 rounded-md opacity-70"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="p-3 text-center">
+                          <h5 className="font-semibold text-gray-900 text-sm">크림 용기</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Option 5: Spray */}
+                    <div className="flex-shrink-0 w-1/5 px-2 snap-center">
+                      <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition cursor-pointer">
+                        <div className="aspect-square p-4 flex items-center justify-center relative">
+                          <div className="relative transform hover:scale-105 transition-transform duration-300">
+                            <div className="w-12 h-32 bg-gradient-to-b from-gray-50 to-blue-50 rounded-lg shadow-md relative">
+                              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 w-5 h-4 bg-green-400 rounded-full"></div>
+                              <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-white rounded-full"></div>
+                              <div className="absolute top-6 left-1 right-1 bottom-2 bg-green-300 rounded-md opacity-70"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="p-3 text-center">
+                          <h5 className="font-semibold text-gray-900 text-sm">미스트 스프레이</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Option 6: Ampoule */}
+                    <div className="flex-shrink-0 w-1/5 px-2 snap-center">
+                      <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition cursor-pointer">
+                        <div className="aspect-square p-4 flex items-center justify-center relative">
+                          <div className="relative transform hover:scale-105 transition-transform duration-300">
+                            <div className="w-10 h-32 bg-gradient-to-b from-white to-gray-100 rounded-full shadow-md relative">
+                              <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-4 h-3 bg-amber-400 rounded-t-full"></div>
+                              <div className="absolute top-4 left-1 right-1 bottom-2 bg-amber-300 rounded-full opacity-70"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="p-3 text-center">
+                          <h5 className="font-semibold text-gray-900 text-sm">앰플</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    {/* Option 7: Stick */}
+                    <div className="flex-shrink-0 w-1/5 px-2 snap-center">
+                      <div className="bg-white rounded-xl border border-gray-200 overflow-hidden hover:shadow-lg transition cursor-pointer">
+                        <div className="aspect-square p-4 flex items-center justify-center relative">
+                          <div className="relative transform hover:scale-105 transition-transform duration-300">
+                            <div className="w-14 h-28 bg-gradient-to-b from-white to-gray-100 rounded-lg shadow-md relative">
+                              <div className="absolute -top-2 left-1/2 transform -translate-x-1/2 w-10 h-3 bg-rose-400 rounded-full"></div>
+                              <div className="absolute top-2 left-1 right-1 bottom-1 bg-rose-300 rounded-md opacity-70"></div>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="p-3 text-center">
+                          <h5 className="font-semibold text-gray-900 text-sm">스틱형</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Right arrow */}
+                  <button className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-md hover:bg-gray-100">
+                    <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </button>
+                </div>
+                
+                {/* Size Selection */}
+                <div className="flex justify-center space-x-2 mb-8">
+                  <button className="px-4 py-2 rounded-full bg-pink-100 text-pink-700 font-medium text-sm">15ml</button>
+                  <button className="px-4 py-2 rounded-full bg-pink-500 text-white font-medium text-sm">30ml</button>
+                  <button className="px-4 py-2 rounded-full bg-pink-100 text-pink-700 font-medium text-sm">50ml</button>
+                  <button className="px-4 py-2 rounded-full bg-pink-100 text-pink-700 font-medium text-sm">100ml</button>
+                </div>
+                
+                {/* Generate Button */}
+                <div className="flex justify-center mb-8">
+                  <button className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-3 rounded-lg hover:shadow-lg transition flex items-center space-x-2">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                    </svg>
+                    <span>선택 디자인 생성하기</span>
+                  </button>
+                </div>
+                
+                </div>
             </div>
 
             {/* Target Persona & Brand Muse */}
-            <div className="bg-white p-8 rounded-xl border border-gray-200">
+            <div className="bg-white p-8 rounded-xl border border-gray-200 mb-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-6">브랜드 뮤즈</h3>
+              
+              <div className="overflow-hidden rounded-xl shadow-lg">
+                <img 
+                  src="https://i.pinimg.com/736x/ef/e5/00/efe5007b69560d9ee2fd9c11c680949c.jpg" 
+                  alt="Brand Muse Inspirational Image"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">타겟 페르소나 & 브랜드 뮤즈</h3>
               
               {/* Target Persona */}
@@ -1254,44 +1496,7 @@ function VibePlayContent() {
               <div>
                 <h4 className="text-lg font-bold text-gray-900 mb-4">브랜드 뮤즈</h4>
                 
-                <div className="grid md:grid-cols-2 gap-6 mb-6">
-                  {/* Magazine Style Photo 1 */}
-                  <div className="relative rounded-xl overflow-hidden shadow-lg group">
-                    <div className="aspect-[3/4] bg-gradient-to-br from-pink-100 via-rose-100 to-purple-100">
-                      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60"></div>
-                      {/* Magazine-style portrait mockup */}
-                      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-20 h-24 bg-gradient-to-b from-pink-200 to-rose-300 rounded-full shadow-lg">
-                        <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-16 h-20 bg-gradient-to-b from-white/30 to-pink-300/50 rounded-full"></div>
-                        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-12 h-16 bg-gradient-to-b from-rose-200 to-pink-400 rounded-full opacity-80"></div>
-                      </div>
-                      {/* Hair mockup */}
-                      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-2 w-24 h-12 bg-gradient-to-b from-amber-200 to-yellow-300 rounded-t-full opacity-70"></div>
-                      
-                      <div className="absolute bottom-4 left-4 right-4 text-center">
-                        <div className="text-white text-sm font-medium">자연스러운 매력</div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Magazine Style Photo 2 */}
-                  <div className="relative rounded-xl overflow-hidden shadow-lg group">
-                    <div className="aspect-[3/4] bg-gradient-to-br from-blue-100 via-indigo-100 to-purple-100">
-                      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/60"></div>
-                      {/* Magazine-style portrait mockup */}
-                      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 w-20 h-24 bg-gradient-to-b from-blue-200 to-indigo-300 rounded-full shadow-lg">
-                        <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-16 h-20 bg-gradient-to-b from-white/30 to-blue-300/50 rounded-full"></div>
-                        <div className="absolute top-4 left-1/2 transform -translate-x-1/2 w-12 h-16 bg-gradient-to-b from-blue-200 to-indigo-400 rounded-full opacity-80"></div>
-                      </div>
-                      {/* Hair mockup */}
-                      <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-2 w-24 h-12 bg-gradient-to-b from-gray-700 to-gray-900 rounded-t-full opacity-70"></div>
-                      
-                      <div className="absolute bottom-4 left-4 right-4 text-center">
-                        <div className="text-white text-sm font-medium">세련된 우아함</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
+  
                 <div className="bg-gradient-to-br from-pink-50 to-rose-50 p-6 rounded-xl border border-pink-100">
                   <h5 className="font-semibold text-gray-800 mb-3">브랜드 이미지</h5>
                   <p className="text-sm text-gray-600 leading-relaxed mb-4">
